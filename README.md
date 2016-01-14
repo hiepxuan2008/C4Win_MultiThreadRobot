@@ -1,6 +1,4 @@
 # C4Win course - Multi Thread Assignment
-# Multi Thread Robot
-# Mai Thanh Hiep - Happy Coding
 
 - Đã cài đặt tất cả chức năng đã yêu cầu.
 - Lập trình hướng đối tượng, thiết kế class diagram.
