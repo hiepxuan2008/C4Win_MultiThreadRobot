@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Attributes">
+      <UniqueIdentifier>{f7dec644-bdf1-4398-9e48-9e46c182e6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shapes">
+      <UniqueIdentifier>{0c8556b8-a758-4675-9bc5-f135929730b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lines">
+      <UniqueIdentifier>{04704f50-fc3b-499e-93ad-0a80899dcfee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lines">
+      <UniqueIdentifier>{6309549b-c555-4bc4-9396-16b55f86ef53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{7f2d8409-9f46-4b72-a128-7d5350b435fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{763fb60a-41ef-4e37-812c-61810b74635e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="P3_1312206.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\IShape.h">
+      <Filter>Source Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\ShapeEllipse.h">
+      <Filter>Source Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\ShapeLine.h">
+      <Filter>Source Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\ShapePencil.h">
+      <Filter>Source Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\ShapeRectangle.h">
+      <Filter>Source Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Shapes\Shapes.h">
+      <Filter>Source Files\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\Attributes.h">
+      <Filter>Source Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\Color.h">
+      <Filter>Source Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\Point.h">
+      <Filter>Source Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes\Stroke.h">
+      <Filter>Source Files\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="ProviderLine.h">
+      <Filter>Header Files\Lines</Filter>
+    </ClInclude>
+    <ClInclude Include="ReceiverLine.h">
+      <Filter>Header Files\Lines</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Header Files\Lines</Filter>
+    </ClInclude>
+    <ClInclude Include="Line1.h">
+      <Filter>Header Files\Lines</Filter>
+    </ClInclude>
+    <ClInclude Include="Line2.h">
+      <Filter>Header Files\Lines</Filter>
+    </ClInclude>
+    <ClInclude Include="Line3.h">
+      <Filter>Header Files\Lines</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Bucket.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Center.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\IShape.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\ShapeEllipse.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\ShapeLine.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\ShapePencil.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Shapes\ShapeRectangle.cpp">
+      <Filter>Source Files\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="ProviderLine.cpp">
+      <Filter>Source Files\Lines</Filter>
+    </ClCompile>
+    <ClCompile Include="ReceiverLine.cpp">
+      <Filter>Source Files\Lines</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>Source Files\Lines</Filter>
+    </ClCompile>
+    <ClCompile Include="Line1.cpp">
+      <Filter>Source Files\Lines</Filter>
+    </ClCompile>
+    <ClCompile Include="Line2.cpp">
+      <Filter>Source Files\Lines</Filter>
+    </ClCompile>
+    <ClCompile Include="Line3.cpp">
+      <Filter>Source Files\Lines</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bucket.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Center.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="P3_1312206.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="P3_1312206.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
