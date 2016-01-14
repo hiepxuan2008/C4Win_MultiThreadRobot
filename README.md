@@ -12,6 +12,6 @@ const int Config::BUCKET_HEIGHT = 100;
 const int Config::PIPE_WIDTH = 120;
 const int Config::DISTANCE_BETWEEN_ADJACENT_BUCKETS = 120;
 const int Config::DEFAULT_NUMBER_OF_BUCKETS = 20;
-const int Config::DEFAULT_MOVING_SPEEED = 10; //Từ 1 đến 20 là tốt nhất
+const int Config::DEFAULT_MOVING_SPEEED = 5; //Slider chạy từ 1 đến 10
 
 Video demo: https://youtu.be/x22_qbrlJdU
