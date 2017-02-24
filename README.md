@@ -15,3 +15,6 @@ const int Config::DEFAULT_NUMBER_OF_BUCKETS = 20;
 const int Config::DEFAULT_MOVING_SPEEED = 5; //Slider chạy từ 1 đến 10
 
 Video demo: https://youtu.be/x22_qbrlJdU
+
+# Screenshot
+![Screenshot](https://raw.githubusercontent.com/hiepxuan2008/C4Win_MultiThreadRobot/master/Screenshot.png)
